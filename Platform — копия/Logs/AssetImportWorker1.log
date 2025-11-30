@@ -1,0 +1,994 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32589 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Program Files/Platform — копия
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63286
+Successfully changed project path to: D:/Program Files/Platform — копия
+D:/Program Files/Platform — копия
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37676]  Target information:
+
+Player connection [37676]  * "[IP] 25.0.83.208 [Port] 0 [Flags] 2 [Guid] 291576699 [EditorId] 291576699 [Version] 1048832 [Id] WindowsEditor(7,my-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37676]  * "[IP] 26.164.6.107 [Port] 0 [Flags] 2 [Guid] 291576699 [EditorId] 291576699 [Version] 1048832 [Id] WindowsEditor(7,my-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37676]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 291576699 [EditorId] 291576699 [Version] 1048832 [Id] WindowsEditor(7,my-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37676]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 291576699 [EditorId] 291576699 [Version] 1048832 [Id] WindowsEditor(7,my-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37676] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37676] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 11.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Platform — копия/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014922 seconds.
+- Loaded All Assemblies, in  0.402 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.285 seconds
+Domain Reload Profiling: 684ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1358ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.94 seconds
+Refreshing native plugins compatible for Editor in 7.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.7 KB). Loaded Objects now: 4750.
+Memory consumption went from 144.7 MB to 144.5 MB.
+Total: 4.105700 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.355000 ms MarkObjects: 3.175300 ms  DeleteObjects: 0.183400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.962 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1612ms
+	BeginReloadAssembly (621ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (451ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (653ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 8.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (268.5 KB). Loaded Objects now: 4681.
+Memory consumption went from 142.7 MB to 142.4 MB.
+Total: 3.860000 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.376200 ms MarkObjects: 2.827400 ms  DeleteObjects: 0.306000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntryPointExceptionHandler.cs: 20f1cfe797e4e12e216066f9e1249752 -> 1d79911ed1aa183873d532d7950228a7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InstanceProvider.cs: acd8d6087316224a5ba4ab9fcb277294 -> f119eceff3a6e70c4dd7c230840a250e
+  custom:scripting/monoscript/fileName/IStartable.cs: 94a48ca0b1eab28d7a5704b1a25bdcdc -> 7d6c4ab793bfd1438d3a8b3525fe15ab
+  custom:scripting/monoscript/fileName/FuncInstanceProvider.cs: dcecda33ad6eca95bd98325a2b20e533 -> a4d00de3ef4d1623ae7b2d6c9d08a024
+  custom:scripting/monoscript/fileName/RuntimeTypeCache.cs: 338dc3ab45be073106f4f397174e24ff -> 78ccea4d94c620d3678393fb18043816
+  custom:scripting/monoscript/fileName/ScriptTemplateModifier.cs: e4ee3e93c61fbffa691bc15df6f7b566 -> 396fa4fcd83bda1bfe3c6c6cdcdb523e
+  custom:scripting/monoscript/fileName/ComponentRegistrationBuilder.cs: d313f76cdb421f1594684c36b44bb9b0 -> fe7049ed68654d5cf00d963ecfe12c4d
+  custom:scripting/monoscript/fileName/InjectAttribute.cs: 9b77d522b5a4e883dc25f44982a55166 -> c4afd0dd95e4e02fe36412af47f76938
+  custom:scripting/monoscript/fileName/CollectionInstanceProvider.cs: e13516967a9290540ab88db519a9e89d -> 81a9e83c03e2fcda353137709eba6c12
+  custom:scripting/monoscript/fileName/ContainerLocalInstanceProvider.cs: 81e11c02f25102143549958b5b4abce2 -> 8d4233d6566544ad90168f25fe3da46d
+  custom:scripting/monoscript/fileName/IInjectParameter.cs: 8a6e19af0e0b9e1878bfe550cb83e2be -> 4a82d1f066ae98b6121ab710a315d8e0
+  custom:scripting/monoscript/fileName/ContainerBuilderUnityExtensions.cs: 75e2ee732d5e3fade079cf92961ed4a8 -> 061ade09f65812f2ef7f113040f79123
+  custom:scripting/monoscript/fileName/PlayerLoopItem.cs: bc6a78e6979992f5ffc52671a8031b0b -> 24c356e057dd32f550b3174f67b1cacb
+  custom:scripting/monoscript/fileName/AwaitableExtensions.cs: 7128398adea50d3e215c8642e565892e -> 1228a8ba403f80a9b8264ab637608d7e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ILateTickable.cs: 954d76ffeec14c22f66d2456570a103b -> aa6d8f66cdf60bd9ba4ce3e65cb308f4
+  custom:scripting/monoscript/fileName/CappedArrayPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsWindow.cs: 5f134de7e0928ea875ad1f690a348779 -> 549408b6e218a01f1e5b66a64dd2bec3
+  custom:scripting/monoscript/fileName/InjectParameter.cs: dc72b8ad24eb68b57c1f913b37dcf973 -> 1bb330df19734451b8b926986134feeb
+  custom:scripting/monoscript/fileName/DiagnosticsCollector.cs: c859ff7420e5ed73e0f60346ab3cbba5 -> d89cfc654b65724f7da99049d9008bc6
+  custom:scripting/monoscript/fileName/DiagnosticsInfo.cs: c1f2b42c368fe0db47fb76e1392e07f1 -> acb55878531d7e5a204063ff7b13527d
+  custom:scripting/monoscript/fileName/Container.cs: 2714e540c256e57601e072ba9d28d3ad -> 901f395d52fc08b9f2944e2d588a7741
+  custom:scripting/monoscript/fileName/IInjector.cs: 4e932d246519e7cd43009fd66a0cc976 -> 848b99575b44f3a0580f43f45617cadd
+  custom:scripting/monoscript/fileName/FindComponentProvider.cs: 77474a9a7e04b39b41bb163655cb5209 -> a085691716d1ff5b126fc51a3869de72
+  custom:scripting/monoscript/fileName/IFixedTickable.cs: 190700d7de1f1cecdc9ca22b43180674 -> 19bed4de67b8a36924f820dcdbc1cf38
+  custom:scripting/monoscript/fileName/ParentReferencePropertyDrawer.cs: c6334d826f5b84e2e3db1f89db3eea13 -> 48bedb21429be4104872dc351c3b4476
+  custom:scripting/monoscript/fileName/Registration.cs: 5673ad9cf95e44989e2c9ae7af777fa5 -> 229cf1db71266b8a5208cd9b6b12be08
+  custom:scripting/monoscript/fileName/IPostInitializable.cs: 5fa30f17709611143351408beadbf9d7 -> 988e3d58b2f869bdcedcac63f2c4ef90
+  custom:scripting/monoscript/fileName/PlayerLoopHelper.cs: 7438260656824a21f548d96f16d422b5 -> 960da322f031c73ef92a11c8f2bf67ee
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EntryPointDispatcher.cs: 457af653d50aceb3742636283e279394 -> 374cd40c227e2523eefbec10911109b8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:VContainer: 8d1f1b0b716ef8b5ecef6c22f7452b9c -> d6bd5639031e5eeeeb9c9495b022892a
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsTreeView.cs: 19b47084d5cde6dbd77108fa58465eb1 -> e3a49afe63c688388987362979694f2a
+  custom:scripting/monoscript/fileName/FixedTypeObjectKeyHashtable.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Registry.cs: 4ad8aa3e511cf92463a1d0f1c25d065b -> a1b51aeed489ad268035b50afaca2612
+  custom:scripting/monoscript/fileName/IInstaller.cs: d9b70dba461c6f0160209d2ae5594996 -> 3fe10eff77b0f34403d40886eb9f08e2
+  custom:scripting/monoscript/fileName/DisposeLoopItem.cs: 75cf7969a09f48ee714666c2bd0f6bc0 -> 2b8e99f6f566e3c4570770faf882ac54
+  custom:scripting/monoscript/fileName/ContainerLocal.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ObjectResolverUnityExtensions.cs: 542b09727977389f498b95f1252ec19f -> cf8324c55d57567148bb8a8ad94826a6
+  custom:scripting/monoscript/fileName/PlayerLoopRunner.cs: 6a04abbaaa8eb9eee9eff4a0ab238f62 -> 53c3e59cca211f478b46021140258c7d
+  custom:scripting/monoscript/fileName/ExistingInstanceProvider.cs: 2efa23ffdc94bec7abc38fc0e49af62d -> 07f8d707435b0b70b3460da632fb23d3
+  custom:scripting/monoscript/fileName/FreeList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InstanceRegistrationBuilder.cs: 6518c760b56806bb61f01d0d46524e31 -> 065cf9d0b7883c690252ede62c8f1d08
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ContainerInstanceProvider.cs: 7da9f8bcefcb2289b97e5c7d59a7798b -> 2a68181b8529f3f12f63f50969913377
+  custom:scripting/monoscript/fileName/IPostTickable.cs: 9bb4ef6d2ff049852ca2d60c3ad6c78d -> 8c9c827db0fb073a0822cb4ecdb388bf
+  custom:scripting/monoscript/fileName/ReflectionInjector.cs: 80807f790fb05c75f3e39eda6f30a6ff -> 03921b7865120a682b062d7e5d49cadd
+  custom:scripting/monoscript/fileName/TypeKeyHashTable2.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ResolveInfo.cs: e9785570542c420aba4a649e2d8636b9 -> 46b6593527ab6d6a8b4d494b209f0474
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IInitializable.cs: 86b09b0bbb8ec4dcbb34d34bd69434f7 -> 1eec963d6161eda22435d4d9c65df32f
+  custom:scripting/monoscript/fileName/OpenGenericInstanceProvider.cs: 84daa2bd189e6ae2427261150067fd7d -> 50cdc156d8101aa0bb1f1808a5d17cc6
+  custom:scripting/monoscript/fileName/ActionInstaller.cs: 80278e92675f87e2e2a246384aeed5fa -> fe89bf5256a1f139155f165ab951fbd7
+  custom:scripting/monoscript/fileName/VContainerException.cs: 5de437a257a11a2408996b70765edf07 -> 21ceea4184ae0a90a7d0276be195d13b
+  custom:scripting/monoscript/fileName/DiagnosticsContext.cs: 66e60732cff2236b0f79f412c01756eb -> 74c2c01ab1009ed59f90a6312bdddd2b
+  custom:scripting/monoscript/fileName/IPostLateTickable.cs: 57ca203cd2e63600c0a288c2a6a6d24b -> 916486e9d93e050ddbdcdd35ba265558
+  custom:scripting/monoscript/fileName/TypeNameHelper.cs: 156608561ad81f4b23c6c2e229325b13 -> 92fcbb5d65029bd634bf357a62a2d2b5
+  custom:scripting/monoscript/fileName/ITickable.cs: 4dde91f65e7e5ef3d4d774bd59973493 -> 70ffbb68b5e70f08a33a163d99c74ac0
+  custom:scripting/monoscript/fileName/LifetimeScope.AwakeScheduler.cs: 9943b79a92bdc57eec28cb1cabce612a -> c56218cb92f38f53c1c4594bfa7bb611
+  custom:scripting/monoscript/fileName/IInstanceProvider.cs: 56b40b5c364f1b3b57a8baacba1ce940 -> 6a354dd56278f9b231b5a8be97d6766f
+  custom:scripting/monoscript/fileName/InjectorCache.cs: 8a76823cf0706cdacf68dfcee02464ba -> e9feaa5bd23344046b4ca5593ce9f413
+  custom:scripting/monoscript/fileName/IPostStartable.cs: 0367b753cfda43fa98822555c722d73b -> 9343fe388fcd81d3e2bc793d8644b674
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabComponentProvider.cs: 50c75b5efee3ac4c530d8f7d0082f400 -> 99cd143d571cc52551e607f8c1c21c66
+  custom:scripting/monoscript/fileName/RegistrationBuilder.cs: 5b301a7fa744acb3bc8c4580ee627af6 -> 254e9694316350a4aa3d6ea326992cbd
+  custom:scripting/monoscript/fileName/CompositeDisposable.cs: 3815a00444ea5336d628632fc9fe54d6 -> 98389c0595dfcc347dc8415b389a2c2d
+  custom:scripting/monoscript/fileName/SplitterGUILayout.cs: b8b1de13cdc3d2c8051bbbf4e2681c37 -> f4c16665c2eb566e2505ac721688fdca
+  custom:scripting/monoscript/fileName/ExistingComponentProvider.cs: cbd3aa3c42e8ee2915047bfc8c7106d5 -> ec10902e555455ca67586c6016a600ec
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs: deef5fad5e0edccc7826318d6cb00314 -> 32947baf47b9dc6464e983ea63fd040f
+  custom:scripting/monoscript/fileName/VContainerInstanceTreeView.cs: 10b27ca9f5858a493e7f23c474052cc6 -> 1a79a2cf1ce5721a2aea2f6106dd627b
+  custom:scripting/monoscript/fileName/ContainerBuilder.cs: 0676bba0bc87c0403557b99306267d9c -> f68b0607445bc245e72f9d7ca12b3191
+  custom:scripting/monoscript/fileName/KeyAttribute.cs: 63d29ca8c129c3723949a59dafba975c -> 9e88f9355350cc1285ef19b4fb4eaf00
+  custom:scripting/monoscript/fileName/RegisterInfo.cs: 5c8824ef13b81aa9269faed75cbe110a -> d19351003ea0e5c1d7e864972194f7ec
+  custom:scripting/monoscript/fileName/VContainerSettings.cs: e8750455ffef5ca521aeb44479adf899 -> f0948db24271bf95f4355e46e3023eff
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:VContainer.Editor: 8224c1db7d58b30f65c3e26e00c4ab9c -> e793241b00e86a8079ad59be3f66e106
+  custom:scripting/monoscript/fileName/OpenGenericRegistrationBuilder.cs: 644a3b8f7812fc5c22571a316bb2bbba -> d2fa93041a03cd12234721be57a508ef
+  custom:scripting/monoscript/fileName/IAsyncStartable.cs: 548922e80f91e6bef8cc2dba2c045dfb -> c6d3706a1b0eb154c737923d07027eb3
+  custom:scripting/monoscript/fileName/ListPool.cs: f8ff4dba4ea844af6e7e81a0e8c120f3 -> 4ed36a723416821497e1f3e70174a812
+  custom:scripting/monoscript/fileName/IObjectResolverExtensions.cs: decb9c7dfd14b73729a2ded4fb9ca789 -> 39ee8db34670483ef5e9c46d85b0fe94
+  custom:scripting/monoscript/fileName/IPostFixedTickable.cs: 5250f76b8c99c12062620fc82cf98efa -> 4a51ccde2c27ef212b1ce89b3526e18d
+  custom:scripting/monoscript/fileName/NewGameObjectProvider.cs: 2d24447551fb927536fc701f056e5fda -> 82b21788d9e6cd96454c26038d9abdae
+  custom:scripting/monoscript/fileName/ParentReference.cs: e6115d5428597e063d9b71881b209031 -> 36e999b8e9eefc67ab28fa3a4e05f1cd
+  custom:scripting/monoscript/fileName/FuncRegistrationBuilder.cs: 01772f41771dd7c30ea1599e179db0f8 -> 50c180d00305dbf4cdb015ece39b21af
+  custom:scripting/monoscript/fileName/ContainerBuilderExtensions.cs: 3293653c20a3655eaec55cfa794c0e2a -> df8b89fe295fee80bdf34b7d919a7927
+  custom:scripting/monoscript/fileName/BuilderCallbackDisposable.cs: 341628084927be29d40c874392a530be -> 95fd13d794e4427e982d05d53f3753fa
+========================================================================
+Received Prepare
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.184 seconds
+Domain Reload Profiling: 1689ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (214.0 KB). Loaded Objects now: 4687.
+Memory consumption went from 142.6 MB to 142.4 MB.
+Total: 5.994800 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.443600 ms MarkObjects: 4.751600 ms  DeleteObjects: 0.326400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntryPointExceptionHandler.cs: 20f1cfe797e4e12e216066f9e1249752 -> 1d79911ed1aa183873d532d7950228a7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InstanceProvider.cs: acd8d6087316224a5ba4ab9fcb277294 -> f119eceff3a6e70c4dd7c230840a250e
+  custom:scripting/monoscript/fileName/IStartable.cs: 94a48ca0b1eab28d7a5704b1a25bdcdc -> 7d6c4ab793bfd1438d3a8b3525fe15ab
+  custom:scripting/monoscript/fileName/FuncInstanceProvider.cs: dcecda33ad6eca95bd98325a2b20e533 -> a4d00de3ef4d1623ae7b2d6c9d08a024
+  custom:scripting/monoscript/fileName/RuntimeTypeCache.cs: 338dc3ab45be073106f4f397174e24ff -> 78ccea4d94c620d3678393fb18043816
+  custom:scripting/monoscript/fileName/ScriptTemplateModifier.cs: e4ee3e93c61fbffa691bc15df6f7b566 -> 396fa4fcd83bda1bfe3c6c6cdcdb523e
+  custom:scripting/monoscript/fileName/ComponentRegistrationBuilder.cs: d313f76cdb421f1594684c36b44bb9b0 -> fe7049ed68654d5cf00d963ecfe12c4d
+  custom:scripting/monoscript/fileName/InjectAttribute.cs: 9b77d522b5a4e883dc25f44982a55166 -> c4afd0dd95e4e02fe36412af47f76938
+  custom:scripting/monoscript/fileName/CollectionInstanceProvider.cs: e13516967a9290540ab88db519a9e89d -> 81a9e83c03e2fcda353137709eba6c12
+  custom:scripting/monoscript/fileName/ContainerLocalInstanceProvider.cs: 81e11c02f25102143549958b5b4abce2 -> 8d4233d6566544ad90168f25fe3da46d
+  custom:scripting/monoscript/fileName/IInjectParameter.cs: 8a6e19af0e0b9e1878bfe550cb83e2be -> 4a82d1f066ae98b6121ab710a315d8e0
+  custom:scripting/monoscript/fileName/ContainerBuilderUnityExtensions.cs: 75e2ee732d5e3fade079cf92961ed4a8 -> 061ade09f65812f2ef7f113040f79123
+  custom:scripting/monoscript/fileName/PlayerLoopItem.cs: bc6a78e6979992f5ffc52671a8031b0b -> 24c356e057dd32f550b3174f67b1cacb
+  custom:scripting/monoscript/fileName/AwaitableExtensions.cs: 7128398adea50d3e215c8642e565892e -> 1228a8ba403f80a9b8264ab637608d7e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ILateTickable.cs: 954d76ffeec14c22f66d2456570a103b -> aa6d8f66cdf60bd9ba4ce3e65cb308f4
+  custom:scripting/monoscript/fileName/CappedArrayPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameLifetimeScope.cs: e893825d7dc909d0064d5eeb8e409532 -> 
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsWindow.cs: 5f134de7e0928ea875ad1f690a348779 -> 549408b6e218a01f1e5b66a64dd2bec3
+  custom:scripting/monoscript/fileName/InjectParameter.cs: dc72b8ad24eb68b57c1f913b37dcf973 -> 1bb330df19734451b8b926986134feeb
+  custom:scripting/monoscript/fileName/DiagnosticsCollector.cs: c859ff7420e5ed73e0f60346ab3cbba5 -> d89cfc654b65724f7da99049d9008bc6
+  custom:scripting/monoscript/fileName/DiagnosticsInfo.cs: c1f2b42c368fe0db47fb76e1392e07f1 -> acb55878531d7e5a204063ff7b13527d
+  custom:scripting/monoscript/fileName/Container.cs: 2714e540c256e57601e072ba9d28d3ad -> 901f395d52fc08b9f2944e2d588a7741
+  custom:scripting/monoscript/fileName/IInjector.cs: 4e932d246519e7cd43009fd66a0cc976 -> 848b99575b44f3a0580f43f45617cadd
+  custom:scripting/monoscript/fileName/FindComponentProvider.cs: 77474a9a7e04b39b41bb163655cb5209 -> a085691716d1ff5b126fc51a3869de72
+  custom:scripting/monoscript/fileName/IFixedTickable.cs: 190700d7de1f1cecdc9ca22b43180674 -> 19bed4de67b8a36924f820dcdbc1cf38
+  custom:scripting/monoscript/fileName/ParentReferencePropertyDrawer.cs: c6334d826f5b84e2e3db1f89db3eea13 -> 48bedb21429be4104872dc351c3b4476
+  custom:scripting/monoscript/fileName/Registration.cs: 5673ad9cf95e44989e2c9ae7af777fa5 -> 229cf1db71266b8a5208cd9b6b12be08
+  custom:scripting/monoscript/fileName/IPostInitializable.cs: 5fa30f17709611143351408beadbf9d7 -> 988e3d58b2f869bdcedcac63f2c4ef90
+  custom:scripting/monoscript/fileName/PlayerLoopHelper.cs: 7438260656824a21f548d96f16d422b5 -> 960da322f031c73ef92a11c8f2bf67ee
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EntryPointDispatcher.cs: 457af653d50aceb3742636283e279394 -> 374cd40c227e2523eefbec10911109b8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:VContainer: 8d1f1b0b716ef8b5ecef6c22f7452b9c -> d6bd5639031e5eeeeb9c9495b022892a
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsTreeView.cs: 19b47084d5cde6dbd77108fa58465eb1 -> e3a49afe63c688388987362979694f2a
+  custom:scripting/monoscript/fileName/FixedTypeObjectKeyHashtable.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Registry.cs: 4ad8aa3e511cf92463a1d0f1c25d065b -> a1b51aeed489ad268035b50afaca2612
+  custom:scripting/monoscript/fileName/IInstaller.cs: d9b70dba461c6f0160209d2ae5594996 -> 3fe10eff77b0f34403d40886eb9f08e2
+  custom:scripting/monoscript/fileName/DisposeLoopItem.cs: 75cf7969a09f48ee714666c2bd0f6bc0 -> 2b8e99f6f566e3c4570770faf882ac54
+  custom:scripting/monoscript/fileName/ContainerLocal.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ObjectResolverUnityExtensions.cs: 542b09727977389f498b95f1252ec19f -> cf8324c55d57567148bb8a8ad94826a6
+  custom:scripting/monoscript/fileName/PlayerLoopRunner.cs: 6a04abbaaa8eb9eee9eff4a0ab238f62 -> 53c3e59cca211f478b46021140258c7d
+  custom:scripting/monoscript/fileName/ExistingInstanceProvider.cs: 2efa23ffdc94bec7abc38fc0e49af62d -> 07f8d707435b0b70b3460da632fb23d3
+  custom:scripting/monoscript/fileName/FreeList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InstanceRegistrationBuilder.cs: 6518c760b56806bb61f01d0d46524e31 -> 065cf9d0b7883c690252ede62c8f1d08
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ContainerInstanceProvider.cs: 7da9f8bcefcb2289b97e5c7d59a7798b -> 2a68181b8529f3f12f63f50969913377
+  custom:scripting/monoscript/fileName/IPostTickable.cs: 9bb4ef6d2ff049852ca2d60c3ad6c78d -> 8c9c827db0fb073a0822cb4ecdb388bf
+  custom:scripting/monoscript/fileName/ReflectionInjector.cs: 80807f790fb05c75f3e39eda6f30a6ff -> 03921b7865120a682b062d7e5d49cadd
+  custom:scripting/monoscript/fileName/TypeKeyHashTable2.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ResolveInfo.cs: e9785570542c420aba4a649e2d8636b9 -> 46b6593527ab6d6a8b4d494b209f0474
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IInitializable.cs: 86b09b0bbb8ec4dcbb34d34bd69434f7 -> 1eec963d6161eda22435d4d9c65df32f
+  custom:scripting/monoscript/fileName/OpenGenericInstanceProvider.cs: 84daa2bd189e6ae2427261150067fd7d -> 50cdc156d8101aa0bb1f1808a5d17cc6
+  custom:scripting/monoscript/fileName/ActionInstaller.cs: 80278e92675f87e2e2a246384aeed5fa -> fe89bf5256a1f139155f165ab951fbd7
+  custom:scripting/monoscript/fileName/VContainerException.cs: 5de437a257a11a2408996b70765edf07 -> 21ceea4184ae0a90a7d0276be195d13b
+  custom:scripting/monoscript/fileName/DiagnosticsContext.cs: 66e60732cff2236b0f79f412c01756eb -> 74c2c01ab1009ed59f90a6312bdddd2b
+  custom:scripting/monoscript/fileName/IPostLateTickable.cs: 57ca203cd2e63600c0a288c2a6a6d24b -> 916486e9d93e050ddbdcdd35ba265558
+  custom:scripting/monoscript/fileName/TypeNameHelper.cs: 156608561ad81f4b23c6c2e229325b13 -> 92fcbb5d65029bd634bf357a62a2d2b5
+  custom:scripting/monoscript/fileName/ITickable.cs: 4dde91f65e7e5ef3d4d774bd59973493 -> 70ffbb68b5e70f08a33a163d99c74ac0
+  custom:scripting/monoscript/fileName/LifetimeScope.AwakeScheduler.cs: 9943b79a92bdc57eec28cb1cabce612a -> c56218cb92f38f53c1c4594bfa7bb611
+  custom:scripting/monoscript/fileName/IInstanceProvider.cs: 56b40b5c364f1b3b57a8baacba1ce940 -> 6a354dd56278f9b231b5a8be97d6766f
+  custom:scripting/monoscript/fileName/InjectorCache.cs: 8a76823cf0706cdacf68dfcee02464ba -> e9feaa5bd23344046b4ca5593ce9f413
+  custom:scripting/monoscript/fileName/IPostStartable.cs: 0367b753cfda43fa98822555c722d73b -> 9343fe388fcd81d3e2bc793d8644b674
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabComponentProvider.cs: 50c75b5efee3ac4c530d8f7d0082f400 -> 99cd143d571cc52551e607f8c1c21c66
+  custom:scripting/monoscript/fileName/RegistrationBuilder.cs: 5b301a7fa744acb3bc8c4580ee627af6 -> 254e9694316350a4aa3d6ea326992cbd
+  custom:scripting/monoscript/fileName/CompositeDisposable.cs: 3815a00444ea5336d628632fc9fe54d6 -> 98389c0595dfcc347dc8415b389a2c2d
+  custom:scripting/monoscript/fileName/SplitterGUILayout.cs: b8b1de13cdc3d2c8051bbbf4e2681c37 -> f4c16665c2eb566e2505ac721688fdca
+  custom:scripting/monoscript/fileName/ExistingComponentProvider.cs: cbd3aa3c42e8ee2915047bfc8c7106d5 -> ec10902e555455ca67586c6016a600ec
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs: deef5fad5e0edccc7826318d6cb00314 -> 32947baf47b9dc6464e983ea63fd040f
+  custom:scripting/monoscript/fileName/VContainerInstanceTreeView.cs: 10b27ca9f5858a493e7f23c474052cc6 -> 1a79a2cf1ce5721a2aea2f6106dd627b
+  custom:scripting/monoscript/fileName/ContainerBuilder.cs: 0676bba0bc87c0403557b99306267d9c -> f68b0607445bc245e72f9d7ca12b3191
+  custom:scripting/monoscript/fileName/KeyAttribute.cs: 63d29ca8c129c3723949a59dafba975c -> 9e88f9355350cc1285ef19b4fb4eaf00
+  custom:scripting/monoscript/fileName/RegisterInfo.cs: 5c8824ef13b81aa9269faed75cbe110a -> d19351003ea0e5c1d7e864972194f7ec
+  custom:scripting/monoscript/fileName/VContainerSettings.cs: e8750455ffef5ca521aeb44479adf899 -> f0948db24271bf95f4355e46e3023eff
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:VContainer.Editor: 8224c1db7d58b30f65c3e26e00c4ab9c -> e793241b00e86a8079ad59be3f66e106
+  custom:scripting/monoscript/fileName/OpenGenericRegistrationBuilder.cs: 644a3b8f7812fc5c22571a316bb2bbba -> d2fa93041a03cd12234721be57a508ef
+  custom:scripting/monoscript/fileName/IAsyncStartable.cs: 548922e80f91e6bef8cc2dba2c045dfb -> c6d3706a1b0eb154c737923d07027eb3
+  custom:scripting/monoscript/fileName/ListPool.cs: f8ff4dba4ea844af6e7e81a0e8c120f3 -> 4ed36a723416821497e1f3e70174a812
+  custom:scripting/monoscript/fileName/IObjectResolverExtensions.cs: decb9c7dfd14b73729a2ded4fb9ca789 -> 39ee8db34670483ef5e9c46d85b0fe94
+  custom:scripting/monoscript/fileName/IPostFixedTickable.cs: 5250f76b8c99c12062620fc82cf98efa -> 4a51ccde2c27ef212b1ce89b3526e18d
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 665c1129a51f65ac20c394d892621b84 -> 9ac3c718c638ce6479be204d13865667
+  custom:scripting/monoscript/fileName/NewGameObjectProvider.cs: 2d24447551fb927536fc701f056e5fda -> 82b21788d9e6cd96454c26038d9abdae
+  custom:scripting/monoscript/fileName/ParentReference.cs: e6115d5428597e063d9b71881b209031 -> 36e999b8e9eefc67ab28fa3a4e05f1cd
+  custom:scripting/monoscript/fileName/FuncRegistrationBuilder.cs: 01772f41771dd7c30ea1599e179db0f8 -> 50c180d00305dbf4cdb015ece39b21af
+  custom:scripting/monoscript/fileName/ContainerBuilderExtensions.cs: 3293653c20a3655eaec55cfa794c0e2a -> df8b89fe295fee80bdf34b7d919a7927
+  custom:scripting/monoscript/fileName/BuilderCallbackDisposable.cs: 341628084927be29d40c874392a530be -> 95fd13d794e4427e982d05d53f3753fa
+========================================================================
+Received Import Request.
+  Time since last request: 123314.389388 seconds.
+  path: Assets/GameLifetimeScope.cs
+  artifactKey: Guid(48976e03d245f7745b6e779757f1fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameLifetimeScope.cs using Guid(48976e03d245f7745b6e779757f1fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e3e788f6e53a64677584a601b61d214') in 0.002742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.528 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.178 seconds
+Domain Reload Profiling: 1703ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 8.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (214.1 KB). Loaded Objects now: 4693.
+Memory consumption went from 142.4 MB to 142.2 MB.
+Total: 5.064300 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.451700 ms MarkObjects: 4.055700 ms  DeleteObjects: 0.191300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntryPointExceptionHandler.cs: 20f1cfe797e4e12e216066f9e1249752 -> 1d79911ed1aa183873d532d7950228a7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InstanceProvider.cs: acd8d6087316224a5ba4ab9fcb277294 -> f119eceff3a6e70c4dd7c230840a250e
+  custom:scripting/monoscript/fileName/IStartable.cs: 94a48ca0b1eab28d7a5704b1a25bdcdc -> 7d6c4ab793bfd1438d3a8b3525fe15ab
+  custom:scripting/monoscript/fileName/FuncInstanceProvider.cs: dcecda33ad6eca95bd98325a2b20e533 -> a4d00de3ef4d1623ae7b2d6c9d08a024
+  custom:scripting/monoscript/fileName/RuntimeTypeCache.cs: 338dc3ab45be073106f4f397174e24ff -> 78ccea4d94c620d3678393fb18043816
+  custom:scripting/monoscript/fileName/ScriptTemplateModifier.cs: e4ee3e93c61fbffa691bc15df6f7b566 -> 396fa4fcd83bda1bfe3c6c6cdcdb523e
+  custom:scripting/monoscript/fileName/ComponentRegistrationBuilder.cs: d313f76cdb421f1594684c36b44bb9b0 -> fe7049ed68654d5cf00d963ecfe12c4d
+  custom:scripting/monoscript/fileName/InjectAttribute.cs: 9b77d522b5a4e883dc25f44982a55166 -> c4afd0dd95e4e02fe36412af47f76938
+  custom:scripting/monoscript/fileName/CollectionInstanceProvider.cs: e13516967a9290540ab88db519a9e89d -> 81a9e83c03e2fcda353137709eba6c12
+  custom:scripting/monoscript/fileName/ContainerLocalInstanceProvider.cs: 81e11c02f25102143549958b5b4abce2 -> 8d4233d6566544ad90168f25fe3da46d
+  custom:scripting/monoscript/fileName/IInjectParameter.cs: 8a6e19af0e0b9e1878bfe550cb83e2be -> 4a82d1f066ae98b6121ab710a315d8e0
+  custom:scripting/monoscript/fileName/ContainerBuilderUnityExtensions.cs: 75e2ee732d5e3fade079cf92961ed4a8 -> 061ade09f65812f2ef7f113040f79123
+  custom:scripting/monoscript/fileName/PlayerLoopItem.cs: bc6a78e6979992f5ffc52671a8031b0b -> 24c356e057dd32f550b3174f67b1cacb
+  custom:scripting/monoscript/fileName/AwaitableExtensions.cs: 7128398adea50d3e215c8642e565892e -> 1228a8ba403f80a9b8264ab637608d7e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ILateTickable.cs: 954d76ffeec14c22f66d2456570a103b -> aa6d8f66cdf60bd9ba4ce3e65cb308f4
+  custom:scripting/monoscript/fileName/CappedArrayPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameLifetimeScope.cs: e893825d7dc909d0064d5eeb8e409532 -> 
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsWindow.cs: 5f134de7e0928ea875ad1f690a348779 -> 549408b6e218a01f1e5b66a64dd2bec3
+  custom:scripting/monoscript/fileName/InjectParameter.cs: dc72b8ad24eb68b57c1f913b37dcf973 -> 1bb330df19734451b8b926986134feeb
+  custom:scripting/monoscript/fileName/DiagnosticsCollector.cs: c859ff7420e5ed73e0f60346ab3cbba5 -> d89cfc654b65724f7da99049d9008bc6
+  custom:scripting/monoscript/fileName/DiagnosticsInfo.cs: c1f2b42c368fe0db47fb76e1392e07f1 -> acb55878531d7e5a204063ff7b13527d
+  custom:scripting/monoscript/fileName/Container.cs: 2714e540c256e57601e072ba9d28d3ad -> 901f395d52fc08b9f2944e2d588a7741
+  custom:scripting/monoscript/fileName/IInjector.cs: 4e932d246519e7cd43009fd66a0cc976 -> 848b99575b44f3a0580f43f45617cadd
+  custom:scripting/monoscript/fileName/FindComponentProvider.cs: 77474a9a7e04b39b41bb163655cb5209 -> a085691716d1ff5b126fc51a3869de72
+  custom:scripting/monoscript/fileName/IFixedTickable.cs: 190700d7de1f1cecdc9ca22b43180674 -> 19bed4de67b8a36924f820dcdbc1cf38
+  custom:scripting/monoscript/fileName/ParentReferencePropertyDrawer.cs: c6334d826f5b84e2e3db1f89db3eea13 -> 48bedb21429be4104872dc351c3b4476
+  custom:scripting/monoscript/fileName/Registration.cs: 5673ad9cf95e44989e2c9ae7af777fa5 -> 229cf1db71266b8a5208cd9b6b12be08
+  custom:scripting/monoscript/fileName/IPostInitializable.cs: 5fa30f17709611143351408beadbf9d7 -> 988e3d58b2f869bdcedcac63f2c4ef90
+  custom:scripting/monoscript/fileName/PlayerLoopHelper.cs: 7438260656824a21f548d96f16d422b5 -> 960da322f031c73ef92a11c8f2bf67ee
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EntryPointDispatcher.cs: 457af653d50aceb3742636283e279394 -> 374cd40c227e2523eefbec10911109b8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:VContainer: 8d1f1b0b716ef8b5ecef6c22f7452b9c -> d6bd5639031e5eeeeb9c9495b022892a
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsTreeView.cs: 19b47084d5cde6dbd77108fa58465eb1 -> e3a49afe63c688388987362979694f2a
+  custom:scripting/monoscript/fileName/FixedTypeObjectKeyHashtable.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Registry.cs: 4ad8aa3e511cf92463a1d0f1c25d065b -> a1b51aeed489ad268035b50afaca2612
+  custom:scripting/monoscript/fileName/IInstaller.cs: d9b70dba461c6f0160209d2ae5594996 -> 3fe10eff77b0f34403d40886eb9f08e2
+  custom:scripting/monoscript/fileName/DisposeLoopItem.cs: 75cf7969a09f48ee714666c2bd0f6bc0 -> 2b8e99f6f566e3c4570770faf882ac54
+  custom:scripting/monoscript/fileName/ContainerLocal.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ObjectResolverUnityExtensions.cs: 542b09727977389f498b95f1252ec19f -> cf8324c55d57567148bb8a8ad94826a6
+  custom:scripting/monoscript/fileName/PlayerLoopRunner.cs: 6a04abbaaa8eb9eee9eff4a0ab238f62 -> 53c3e59cca211f478b46021140258c7d
+  custom:scripting/monoscript/fileName/ExistingInstanceProvider.cs: 2efa23ffdc94bec7abc38fc0e49af62d -> 07f8d707435b0b70b3460da632fb23d3
+  custom:scripting/monoscript/fileName/FreeList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InstanceRegistrationBuilder.cs: 6518c760b56806bb61f01d0d46524e31 -> 065cf9d0b7883c690252ede62c8f1d08
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ContainerInstanceProvider.cs: 7da9f8bcefcb2289b97e5c7d59a7798b -> 2a68181b8529f3f12f63f50969913377
+  custom:scripting/monoscript/fileName/GameStateManager.cs: bf23ee76960a2deda5812a647ba7fd49 -> 
+  custom:scripting/monoscript/fileName/IPostTickable.cs: 9bb4ef6d2ff049852ca2d60c3ad6c78d -> 8c9c827db0fb073a0822cb4ecdb388bf
+  custom:scripting/monoscript/fileName/ReflectionInjector.cs: 80807f790fb05c75f3e39eda6f30a6ff -> 03921b7865120a682b062d7e5d49cadd
+  custom:scripting/monoscript/fileName/TypeKeyHashTable2.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ResolveInfo.cs: e9785570542c420aba4a649e2d8636b9 -> 46b6593527ab6d6a8b4d494b209f0474
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IInitializable.cs: 86b09b0bbb8ec4dcbb34d34bd69434f7 -> 1eec963d6161eda22435d4d9c65df32f
+  custom:scripting/monoscript/fileName/OpenGenericInstanceProvider.cs: 84daa2bd189e6ae2427261150067fd7d -> 50cdc156d8101aa0bb1f1808a5d17cc6
+  custom:scripting/monoscript/fileName/ActionInstaller.cs: 80278e92675f87e2e2a246384aeed5fa -> fe89bf5256a1f139155f165ab951fbd7
+  custom:scripting/monoscript/fileName/VContainerException.cs: 5de437a257a11a2408996b70765edf07 -> 21ceea4184ae0a90a7d0276be195d13b
+  custom:scripting/monoscript/fileName/DiagnosticsContext.cs: 66e60732cff2236b0f79f412c01756eb -> 74c2c01ab1009ed59f90a6312bdddd2b
+  custom:scripting/monoscript/fileName/IPostLateTickable.cs: 57ca203cd2e63600c0a288c2a6a6d24b -> 916486e9d93e050ddbdcdd35ba265558
+  custom:scripting/monoscript/fileName/TypeNameHelper.cs: 156608561ad81f4b23c6c2e229325b13 -> 92fcbb5d65029bd634bf357a62a2d2b5
+  custom:scripting/monoscript/fileName/ITickable.cs: 4dde91f65e7e5ef3d4d774bd59973493 -> 70ffbb68b5e70f08a33a163d99c74ac0
+  custom:scripting/monoscript/fileName/LifetimeScope.AwakeScheduler.cs: 9943b79a92bdc57eec28cb1cabce612a -> c56218cb92f38f53c1c4594bfa7bb611
+  custom:scripting/monoscript/fileName/IInstanceProvider.cs: 56b40b5c364f1b3b57a8baacba1ce940 -> 6a354dd56278f9b231b5a8be97d6766f
+  custom:scripting/monoscript/fileName/InjectorCache.cs: 8a76823cf0706cdacf68dfcee02464ba -> e9feaa5bd23344046b4ca5593ce9f413
+  custom:scripting/monoscript/fileName/IPostStartable.cs: 0367b753cfda43fa98822555c722d73b -> 9343fe388fcd81d3e2bc793d8644b674
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabComponentProvider.cs: 50c75b5efee3ac4c530d8f7d0082f400 -> 99cd143d571cc52551e607f8c1c21c66
+  custom:scripting/monoscript/fileName/RegistrationBuilder.cs: 5b301a7fa744acb3bc8c4580ee627af6 -> 254e9694316350a4aa3d6ea326992cbd
+  custom:scripting/monoscript/fileName/CompositeDisposable.cs: 3815a00444ea5336d628632fc9fe54d6 -> 98389c0595dfcc347dc8415b389a2c2d
+  custom:scripting/monoscript/fileName/SplitterGUILayout.cs: b8b1de13cdc3d2c8051bbbf4e2681c37 -> f4c16665c2eb566e2505ac721688fdca
+  custom:scripting/monoscript/fileName/ExistingComponentProvider.cs: cbd3aa3c42e8ee2915047bfc8c7106d5 -> ec10902e555455ca67586c6016a600ec
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs: deef5fad5e0edccc7826318d6cb00314 -> 32947baf47b9dc6464e983ea63fd040f
+  custom:scripting/monoscript/fileName/VContainerInstanceTreeView.cs: 10b27ca9f5858a493e7f23c474052cc6 -> 1a79a2cf1ce5721a2aea2f6106dd627b
+  custom:scripting/monoscript/fileName/ContainerBuilder.cs: 0676bba0bc87c0403557b99306267d9c -> f68b0607445bc245e72f9d7ca12b3191
+  custom:scripting/monoscript/fileName/KeyAttribute.cs: 63d29ca8c129c3723949a59dafba975c -> 9e88f9355350cc1285ef19b4fb4eaf00
+  custom:scripting/monoscript/fileName/RegisterInfo.cs: 5c8824ef13b81aa9269faed75cbe110a -> d19351003ea0e5c1d7e864972194f7ec
+  custom:scripting/monoscript/fileName/VContainerSettings.cs: e8750455ffef5ca521aeb44479adf899 -> f0948db24271bf95f4355e46e3023eff
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:VContainer.Editor: 8224c1db7d58b30f65c3e26e00c4ab9c -> e793241b00e86a8079ad59be3f66e106
+  custom:scripting/monoscript/fileName/OpenGenericRegistrationBuilder.cs: 644a3b8f7812fc5c22571a316bb2bbba -> d2fa93041a03cd12234721be57a508ef
+  custom:scripting/monoscript/fileName/IAsyncStartable.cs: 548922e80f91e6bef8cc2dba2c045dfb -> c6d3706a1b0eb154c737923d07027eb3
+  custom:scripting/monoscript/fileName/ListPool.cs: f8ff4dba4ea844af6e7e81a0e8c120f3 -> 4ed36a723416821497e1f3e70174a812
+  custom:scripting/monoscript/fileName/IObjectResolverExtensions.cs: decb9c7dfd14b73729a2ded4fb9ca789 -> 39ee8db34670483ef5e9c46d85b0fe94
+  custom:scripting/monoscript/fileName/IPostFixedTickable.cs: 5250f76b8c99c12062620fc82cf98efa -> 4a51ccde2c27ef212b1ce89b3526e18d
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2bbb8fa8ff2e645163b7ed0feefb3ac1 -> 9ac3c718c638ce6479be204d13865667
+  custom:scripting/monoscript/fileName/NewGameObjectProvider.cs: 2d24447551fb927536fc701f056e5fda -> 82b21788d9e6cd96454c26038d9abdae
+  custom:scripting/monoscript/fileName/ParentReference.cs: e6115d5428597e063d9b71881b209031 -> 36e999b8e9eefc67ab28fa3a4e05f1cd
+  custom:scripting/monoscript/fileName/FuncRegistrationBuilder.cs: 01772f41771dd7c30ea1599e179db0f8 -> 50c180d00305dbf4cdb015ece39b21af
+  custom:scripting/monoscript/fileName/ContainerBuilderExtensions.cs: 3293653c20a3655eaec55cfa794c0e2a -> df8b89fe295fee80bdf34b7d919a7927
+  custom:scripting/monoscript/fileName/BuilderCallbackDisposable.cs: 341628084927be29d40c874392a530be -> 95fd13d794e4427e982d05d53f3753fa
+========================================================================
+Received Prepare
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.537 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.160 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1161ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (214.6 KB). Loaded Objects now: 4697.
+Memory consumption went from 142.7 MB to 142.5 MB.
+Total: 4.766100 ms (FindLiveObjects: 0.349700 ms CreateObjectMapping: 0.343800 ms MarkObjects: 3.838900 ms  DeleteObjects: 0.233200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntryPointExceptionHandler.cs: 20f1cfe797e4e12e216066f9e1249752 -> 1d79911ed1aa183873d532d7950228a7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InstanceProvider.cs: acd8d6087316224a5ba4ab9fcb277294 -> f119eceff3a6e70c4dd7c230840a250e
+  custom:scripting/monoscript/fileName/IStartable.cs: 94a48ca0b1eab28d7a5704b1a25bdcdc -> 7d6c4ab793bfd1438d3a8b3525fe15ab
+  custom:scripting/monoscript/fileName/FuncInstanceProvider.cs: dcecda33ad6eca95bd98325a2b20e533 -> a4d00de3ef4d1623ae7b2d6c9d08a024
+  custom:scripting/monoscript/fileName/RuntimeTypeCache.cs: 338dc3ab45be073106f4f397174e24ff -> 78ccea4d94c620d3678393fb18043816
+  custom:scripting/monoscript/fileName/ScriptTemplateModifier.cs: e4ee3e93c61fbffa691bc15df6f7b566 -> 396fa4fcd83bda1bfe3c6c6cdcdb523e
+  custom:scripting/monoscript/fileName/ComponentRegistrationBuilder.cs: d313f76cdb421f1594684c36b44bb9b0 -> fe7049ed68654d5cf00d963ecfe12c4d
+  custom:scripting/monoscript/fileName/InjectAttribute.cs: 9b77d522b5a4e883dc25f44982a55166 -> c4afd0dd95e4e02fe36412af47f76938
+  custom:scripting/monoscript/fileName/CollectionInstanceProvider.cs: e13516967a9290540ab88db519a9e89d -> 81a9e83c03e2fcda353137709eba6c12
+  custom:scripting/monoscript/fileName/ContainerLocalInstanceProvider.cs: 81e11c02f25102143549958b5b4abce2 -> 8d4233d6566544ad90168f25fe3da46d
+  custom:scripting/monoscript/fileName/IInjectParameter.cs: 8a6e19af0e0b9e1878bfe550cb83e2be -> 4a82d1f066ae98b6121ab710a315d8e0
+  custom:scripting/monoscript/fileName/ContainerBuilderUnityExtensions.cs: 75e2ee732d5e3fade079cf92961ed4a8 -> 061ade09f65812f2ef7f113040f79123
+  custom:scripting/monoscript/fileName/PlayerLoopItem.cs: bc6a78e6979992f5ffc52671a8031b0b -> 24c356e057dd32f550b3174f67b1cacb
+  custom:scripting/monoscript/fileName/AwaitableExtensions.cs: 7128398adea50d3e215c8642e565892e -> 1228a8ba403f80a9b8264ab637608d7e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ILateTickable.cs: 954d76ffeec14c22f66d2456570a103b -> aa6d8f66cdf60bd9ba4ce3e65cb308f4
+  custom:scripting/monoscript/fileName/CappedArrayPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameLifetimeScope.cs: e893825d7dc909d0064d5eeb8e409532 -> 
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsWindow.cs: 5f134de7e0928ea875ad1f690a348779 -> 549408b6e218a01f1e5b66a64dd2bec3
+  custom:scripting/monoscript/fileName/InjectParameter.cs: dc72b8ad24eb68b57c1f913b37dcf973 -> 1bb330df19734451b8b926986134feeb
+  custom:scripting/monoscript/fileName/DiagnosticsCollector.cs: c859ff7420e5ed73e0f60346ab3cbba5 -> d89cfc654b65724f7da99049d9008bc6
+  custom:scripting/monoscript/fileName/DiagnosticsInfo.cs: c1f2b42c368fe0db47fb76e1392e07f1 -> acb55878531d7e5a204063ff7b13527d
+  custom:scripting/monoscript/fileName/Container.cs: 2714e540c256e57601e072ba9d28d3ad -> 901f395d52fc08b9f2944e2d588a7741
+  custom:scripting/monoscript/fileName/IInjector.cs: 4e932d246519e7cd43009fd66a0cc976 -> 848b99575b44f3a0580f43f45617cadd
+  custom:scripting/monoscript/fileName/FindComponentProvider.cs: 77474a9a7e04b39b41bb163655cb5209 -> a085691716d1ff5b126fc51a3869de72
+  custom:scripting/monoscript/fileName/IFixedTickable.cs: 190700d7de1f1cecdc9ca22b43180674 -> 19bed4de67b8a36924f820dcdbc1cf38
+  custom:scripting/monoscript/fileName/ParentReferencePropertyDrawer.cs: c6334d826f5b84e2e3db1f89db3eea13 -> 48bedb21429be4104872dc351c3b4476
+  custom:scripting/monoscript/fileName/Registration.cs: 5673ad9cf95e44989e2c9ae7af777fa5 -> 229cf1db71266b8a5208cd9b6b12be08
+  custom:scripting/monoscript/fileName/IPostInitializable.cs: 5fa30f17709611143351408beadbf9d7 -> 988e3d58b2f869bdcedcac63f2c4ef90
+  custom:scripting/monoscript/fileName/PlayerLoopHelper.cs: 7438260656824a21f548d96f16d422b5 -> 960da322f031c73ef92a11c8f2bf67ee
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EntryPointDispatcher.cs: 457af653d50aceb3742636283e279394 -> 374cd40c227e2523eefbec10911109b8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:VContainer: 8d1f1b0b716ef8b5ecef6c22f7452b9c -> d6bd5639031e5eeeeb9c9495b022892a
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsTreeView.cs: 19b47084d5cde6dbd77108fa58465eb1 -> e3a49afe63c688388987362979694f2a
+  custom:scripting/monoscript/fileName/FixedTypeObjectKeyHashtable.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Registry.cs: 4ad8aa3e511cf92463a1d0f1c25d065b -> a1b51aeed489ad268035b50afaca2612
+  custom:scripting/monoscript/fileName/IInstaller.cs: d9b70dba461c6f0160209d2ae5594996 -> 3fe10eff77b0f34403d40886eb9f08e2
+  custom:scripting/monoscript/fileName/DisposeLoopItem.cs: 75cf7969a09f48ee714666c2bd0f6bc0 -> 2b8e99f6f566e3c4570770faf882ac54
+  custom:scripting/monoscript/fileName/ContainerLocal.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ObjectResolverUnityExtensions.cs: 542b09727977389f498b95f1252ec19f -> cf8324c55d57567148bb8a8ad94826a6
+  custom:scripting/monoscript/fileName/PlayerLoopRunner.cs: 6a04abbaaa8eb9eee9eff4a0ab238f62 -> 53c3e59cca211f478b46021140258c7d
+  custom:scripting/monoscript/fileName/ExistingInstanceProvider.cs: 2efa23ffdc94bec7abc38fc0e49af62d -> 07f8d707435b0b70b3460da632fb23d3
+  custom:scripting/monoscript/fileName/FreeList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InstanceRegistrationBuilder.cs: 6518c760b56806bb61f01d0d46524e31 -> 065cf9d0b7883c690252ede62c8f1d08
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ContainerInstanceProvider.cs: 7da9f8bcefcb2289b97e5c7d59a7798b -> 2a68181b8529f3f12f63f50969913377
+  custom:scripting/monoscript/fileName/GameStateManager.cs: bf23ee76960a2deda5812a647ba7fd49 -> 
+  custom:scripting/monoscript/fileName/IPostTickable.cs: 9bb4ef6d2ff049852ca2d60c3ad6c78d -> 8c9c827db0fb073a0822cb4ecdb388bf
+  custom:scripting/monoscript/fileName/ReflectionInjector.cs: 80807f790fb05c75f3e39eda6f30a6ff -> 03921b7865120a682b062d7e5d49cadd
+  custom:scripting/monoscript/fileName/TypeKeyHashTable2.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ResolveInfo.cs: e9785570542c420aba4a649e2d8636b9 -> 46b6593527ab6d6a8b4d494b209f0474
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IInitializable.cs: 86b09b0bbb8ec4dcbb34d34bd69434f7 -> 1eec963d6161eda22435d4d9c65df32f
+  custom:scripting/monoscript/fileName/OpenGenericInstanceProvider.cs: 84daa2bd189e6ae2427261150067fd7d -> 50cdc156d8101aa0bb1f1808a5d17cc6
+  custom:scripting/monoscript/fileName/ActionInstaller.cs: 80278e92675f87e2e2a246384aeed5fa -> fe89bf5256a1f139155f165ab951fbd7
+  custom:scripting/monoscript/fileName/VContainerException.cs: 5de437a257a11a2408996b70765edf07 -> 21ceea4184ae0a90a7d0276be195d13b
+  custom:scripting/monoscript/fileName/DiagnosticsContext.cs: 66e60732cff2236b0f79f412c01756eb -> 74c2c01ab1009ed59f90a6312bdddd2b
+  custom:scripting/monoscript/fileName/IPostLateTickable.cs: 57ca203cd2e63600c0a288c2a6a6d24b -> 916486e9d93e050ddbdcdd35ba265558
+  custom:scripting/monoscript/fileName/TypeNameHelper.cs: 156608561ad81f4b23c6c2e229325b13 -> 92fcbb5d65029bd634bf357a62a2d2b5
+  custom:scripting/monoscript/fileName/ITickable.cs: 4dde91f65e7e5ef3d4d774bd59973493 -> 70ffbb68b5e70f08a33a163d99c74ac0
+  custom:scripting/monoscript/fileName/LifetimeScope.AwakeScheduler.cs: 9943b79a92bdc57eec28cb1cabce612a -> c56218cb92f38f53c1c4594bfa7bb611
+  custom:scripting/monoscript/fileName/IInstanceProvider.cs: 56b40b5c364f1b3b57a8baacba1ce940 -> 6a354dd56278f9b231b5a8be97d6766f
+  custom:scripting/monoscript/fileName/InjectorCache.cs: 8a76823cf0706cdacf68dfcee02464ba -> e9feaa5bd23344046b4ca5593ce9f413
+  custom:scripting/monoscript/fileName/IPostStartable.cs: 0367b753cfda43fa98822555c722d73b -> 9343fe388fcd81d3e2bc793d8644b674
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabComponentProvider.cs: 50c75b5efee3ac4c530d8f7d0082f400 -> 99cd143d571cc52551e607f8c1c21c66
+  custom:scripting/monoscript/fileName/RegistrationBuilder.cs: 5b301a7fa744acb3bc8c4580ee627af6 -> 254e9694316350a4aa3d6ea326992cbd
+  custom:scripting/monoscript/fileName/CompositeDisposable.cs: 3815a00444ea5336d628632fc9fe54d6 -> 98389c0595dfcc347dc8415b389a2c2d
+  custom:scripting/monoscript/fileName/SplitterGUILayout.cs: b8b1de13cdc3d2c8051bbbf4e2681c37 -> f4c16665c2eb566e2505ac721688fdca
+  custom:scripting/monoscript/fileName/ExistingComponentProvider.cs: cbd3aa3c42e8ee2915047bfc8c7106d5 -> ec10902e555455ca67586c6016a600ec
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs: deef5fad5e0edccc7826318d6cb00314 -> 32947baf47b9dc6464e983ea63fd040f
+  custom:scripting/monoscript/fileName/VContainerInstanceTreeView.cs: 10b27ca9f5858a493e7f23c474052cc6 -> 1a79a2cf1ce5721a2aea2f6106dd627b
+  custom:scripting/monoscript/fileName/ContainerBuilder.cs: 0676bba0bc87c0403557b99306267d9c -> f68b0607445bc245e72f9d7ca12b3191
+  custom:scripting/monoscript/fileName/KeyAttribute.cs: 63d29ca8c129c3723949a59dafba975c -> 9e88f9355350cc1285ef19b4fb4eaf00
+  custom:scripting/monoscript/fileName/RegisterInfo.cs: 5c8824ef13b81aa9269faed75cbe110a -> d19351003ea0e5c1d7e864972194f7ec
+  custom:scripting/monoscript/fileName/VContainerSettings.cs: e8750455ffef5ca521aeb44479adf899 -> f0948db24271bf95f4355e46e3023eff
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:VContainer.Editor: 8224c1db7d58b30f65c3e26e00c4ab9c -> e793241b00e86a8079ad59be3f66e106
+  custom:scripting/monoscript/fileName/OpenGenericRegistrationBuilder.cs: 644a3b8f7812fc5c22571a316bb2bbba -> d2fa93041a03cd12234721be57a508ef
+  custom:scripting/monoscript/fileName/IAsyncStartable.cs: 548922e80f91e6bef8cc2dba2c045dfb -> c6d3706a1b0eb154c737923d07027eb3
+  custom:scripting/monoscript/fileName/ListPool.cs: f8ff4dba4ea844af6e7e81a0e8c120f3 -> 4ed36a723416821497e1f3e70174a812
+  custom:scripting/monoscript/fileName/IObjectResolverExtensions.cs: decb9c7dfd14b73729a2ded4fb9ca789 -> 39ee8db34670483ef5e9c46d85b0fe94
+  custom:scripting/monoscript/fileName/IPostFixedTickable.cs: 5250f76b8c99c12062620fc82cf98efa -> 4a51ccde2c27ef212b1ce89b3526e18d
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 665c1129a51f65ac20c394d892621b84 -> 9ac3c718c638ce6479be204d13865667
+  custom:scripting/monoscript/fileName/NewGameObjectProvider.cs: 2d24447551fb927536fc701f056e5fda -> 82b21788d9e6cd96454c26038d9abdae
+  custom:scripting/monoscript/fileName/ParentReference.cs: e6115d5428597e063d9b71881b209031 -> 36e999b8e9eefc67ab28fa3a4e05f1cd
+  custom:scripting/monoscript/fileName/FuncRegistrationBuilder.cs: 01772f41771dd7c30ea1599e179db0f8 -> 50c180d00305dbf4cdb015ece39b21af
+  custom:scripting/monoscript/fileName/ContainerBuilderExtensions.cs: 3293653c20a3655eaec55cfa794c0e2a -> df8b89fe295fee80bdf34b7d919a7927
+  custom:scripting/monoscript/fileName/BuilderCallbackDisposable.cs: 341628084927be29d40c874392a530be -> 95fd13d794e4427e982d05d53f3753fa
+========================================================================
+Received Prepare
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Caller must complete domain reload
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.526 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'VContainer.Editor' already exists (Packages/jp.hadashikick.vcontainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer.Editor' already exists (Assets/VContainer/Editor/VContainer.Editor.asmdef)
+Assembly with name 'VContainer' already exists (Assets/VContainer/Runtime/VContainer.asmdef)
+Assembly with name 'VContainer' already exists (Packages/jp.hadashikick.vcontainer/Runtime/VContainer.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.173 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (214.6 KB). Loaded Objects now: 4701.
+Memory consumption went from 142.7 MB to 142.4 MB.
+Total: 4.197300 ms (FindLiveObjects: 0.514900 ms CreateObjectMapping: 0.539500 ms MarkObjects: 2.917800 ms  DeleteObjects: 0.223300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntryPointExceptionHandler.cs: 20f1cfe797e4e12e216066f9e1249752 -> 1d79911ed1aa183873d532d7950228a7
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InstanceProvider.cs: acd8d6087316224a5ba4ab9fcb277294 -> f119eceff3a6e70c4dd7c230840a250e
+  custom:scripting/monoscript/fileName/IStartable.cs: 94a48ca0b1eab28d7a5704b1a25bdcdc -> 7d6c4ab793bfd1438d3a8b3525fe15ab
+  custom:scripting/monoscript/fileName/FuncInstanceProvider.cs: dcecda33ad6eca95bd98325a2b20e533 -> a4d00de3ef4d1623ae7b2d6c9d08a024
+  custom:scripting/monoscript/fileName/RuntimeTypeCache.cs: 338dc3ab45be073106f4f397174e24ff -> 78ccea4d94c620d3678393fb18043816
+  custom:scripting/monoscript/fileName/ScriptTemplateModifier.cs: e4ee3e93c61fbffa691bc15df6f7b566 -> 396fa4fcd83bda1bfe3c6c6cdcdb523e
+  custom:scripting/monoscript/fileName/ComponentRegistrationBuilder.cs: d313f76cdb421f1594684c36b44bb9b0 -> fe7049ed68654d5cf00d963ecfe12c4d
+  custom:scripting/monoscript/fileName/InjectAttribute.cs: 9b77d522b5a4e883dc25f44982a55166 -> c4afd0dd95e4e02fe36412af47f76938
+  custom:scripting/monoscript/fileName/CollectionInstanceProvider.cs: e13516967a9290540ab88db519a9e89d -> 81a9e83c03e2fcda353137709eba6c12
+  custom:scripting/monoscript/fileName/ContainerLocalInstanceProvider.cs: 81e11c02f25102143549958b5b4abce2 -> 8d4233d6566544ad90168f25fe3da46d
+  custom:scripting/monoscript/fileName/IInjectParameter.cs: 8a6e19af0e0b9e1878bfe550cb83e2be -> 4a82d1f066ae98b6121ab710a315d8e0
+  custom:scripting/monoscript/fileName/ContainerBuilderUnityExtensions.cs: 75e2ee732d5e3fade079cf92961ed4a8 -> 061ade09f65812f2ef7f113040f79123
+  custom:scripting/monoscript/fileName/PlayerLoopItem.cs: bc6a78e6979992f5ffc52671a8031b0b -> 24c356e057dd32f550b3174f67b1cacb
+  custom:scripting/monoscript/fileName/AwaitableExtensions.cs: 7128398adea50d3e215c8642e565892e -> 1228a8ba403f80a9b8264ab637608d7e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ILateTickable.cs: 954d76ffeec14c22f66d2456570a103b -> aa6d8f66cdf60bd9ba4ce3e65cb308f4
+  custom:scripting/monoscript/fileName/CappedArrayPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameLifetimeScope.cs: e893825d7dc909d0064d5eeb8e409532 -> 
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsWindow.cs: 5f134de7e0928ea875ad1f690a348779 -> 549408b6e218a01f1e5b66a64dd2bec3
+  custom:scripting/monoscript/fileName/InjectParameter.cs: dc72b8ad24eb68b57c1f913b37dcf973 -> 1bb330df19734451b8b926986134feeb
+  custom:scripting/monoscript/fileName/DiagnosticsCollector.cs: c859ff7420e5ed73e0f60346ab3cbba5 -> d89cfc654b65724f7da99049d9008bc6
+  custom:scripting/monoscript/fileName/DiagnosticsInfo.cs: c1f2b42c368fe0db47fb76e1392e07f1 -> acb55878531d7e5a204063ff7b13527d
+  custom:scripting/monoscript/fileName/Container.cs: 2714e540c256e57601e072ba9d28d3ad -> 901f395d52fc08b9f2944e2d588a7741
+  custom:scripting/monoscript/fileName/IInjector.cs: 4e932d246519e7cd43009fd66a0cc976 -> 848b99575b44f3a0580f43f45617cadd
+  custom:scripting/monoscript/fileName/FindComponentProvider.cs: 77474a9a7e04b39b41bb163655cb5209 -> a085691716d1ff5b126fc51a3869de72
+  custom:scripting/monoscript/fileName/IFixedTickable.cs: 190700d7de1f1cecdc9ca22b43180674 -> 19bed4de67b8a36924f820dcdbc1cf38
+  custom:scripting/monoscript/fileName/ParentReferencePropertyDrawer.cs: c6334d826f5b84e2e3db1f89db3eea13 -> 48bedb21429be4104872dc351c3b4476
+  custom:scripting/monoscript/fileName/Registration.cs: 5673ad9cf95e44989e2c9ae7af777fa5 -> 229cf1db71266b8a5208cd9b6b12be08
+  custom:scripting/monoscript/fileName/IPostInitializable.cs: 5fa30f17709611143351408beadbf9d7 -> 988e3d58b2f869bdcedcac63f2c4ef90
+  custom:scripting/monoscript/fileName/PlayerLoopHelper.cs: 7438260656824a21f548d96f16d422b5 -> 960da322f031c73ef92a11c8f2bf67ee
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EntryPointDispatcher.cs: 457af653d50aceb3742636283e279394 -> 374cd40c227e2523eefbec10911109b8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:VContainer: 8d1f1b0b716ef8b5ecef6c22f7452b9c -> d6bd5639031e5eeeeb9c9495b022892a
+  custom:scripting/monoscript/fileName/VContainerDiagnosticsTreeView.cs: 19b47084d5cde6dbd77108fa58465eb1 -> e3a49afe63c688388987362979694f2a
+  custom:scripting/monoscript/fileName/FixedTypeObjectKeyHashtable.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Registry.cs: 4ad8aa3e511cf92463a1d0f1c25d065b -> a1b51aeed489ad268035b50afaca2612
+  custom:scripting/monoscript/fileName/IInstaller.cs: d9b70dba461c6f0160209d2ae5594996 -> 3fe10eff77b0f34403d40886eb9f08e2
+  custom:scripting/monoscript/fileName/DisposeLoopItem.cs: 75cf7969a09f48ee714666c2bd0f6bc0 -> 2b8e99f6f566e3c4570770faf882ac54
+  custom:scripting/monoscript/fileName/ContainerLocal.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ObjectResolverUnityExtensions.cs: 542b09727977389f498b95f1252ec19f -> cf8324c55d57567148bb8a8ad94826a6
+  custom:scripting/monoscript/fileName/PlayerLoopRunner.cs: 6a04abbaaa8eb9eee9eff4a0ab238f62 -> 53c3e59cca211f478b46021140258c7d
+  custom:scripting/monoscript/fileName/ExistingInstanceProvider.cs: 2efa23ffdc94bec7abc38fc0e49af62d -> 07f8d707435b0b70b3460da632fb23d3
+  custom:scripting/monoscript/fileName/FreeList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InstanceRegistrationBuilder.cs: 6518c760b56806bb61f01d0d46524e31 -> 065cf9d0b7883c690252ede62c8f1d08
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ContainerInstanceProvider.cs: 7da9f8bcefcb2289b97e5c7d59a7798b -> 2a68181b8529f3f12f63f50969913377
+  custom:scripting/monoscript/fileName/GameStateManager.cs: bf23ee76960a2deda5812a647ba7fd49 -> 
+  custom:scripting/monoscript/fileName/IPostTickable.cs: 9bb4ef6d2ff049852ca2d60c3ad6c78d -> 8c9c827db0fb073a0822cb4ecdb388bf
+  custom:scripting/monoscript/fileName/ReflectionInjector.cs: 80807f790fb05c75f3e39eda6f30a6ff -> 03921b7865120a682b062d7e5d49cadd
+  custom:scripting/monoscript/fileName/TypeKeyHashTable2.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ResolveInfo.cs: e9785570542c420aba4a649e2d8636b9 -> 46b6593527ab6d6a8b4d494b209f0474
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IInitializable.cs: 86b09b0bbb8ec4dcbb34d34bd69434f7 -> 1eec963d6161eda22435d4d9c65df32f
+  custom:scripting/monoscript/fileName/OpenGenericInstanceProvider.cs: 84daa2bd189e6ae2427261150067fd7d -> 50cdc156d8101aa0bb1f1808a5d17cc6
+  custom:scripting/monoscript/fileName/ActionInstaller.cs: 80278e92675f87e2e2a246384aeed5fa -> fe89bf5256a1f139155f165ab951fbd7
+  custom:scripting/monoscript/fileName/VContainerException.cs: 5de437a257a11a2408996b70765edf07 -> 21ceea4184ae0a90a7d0276be195d13b
+  custom:scripting/monoscript/fileName/DiagnosticsContext.cs: 66e60732cff2236b0f79f412c01756eb -> 74c2c01ab1009ed59f90a6312bdddd2b
+  custom:scripting/monoscript/fileName/IPostLateTickable.cs: 57ca203cd2e63600c0a288c2a6a6d24b -> 916486e9d93e050ddbdcdd35ba265558
+  custom:scripting/monoscript/fileName/TypeNameHelper.cs: 156608561ad81f4b23c6c2e229325b13 -> 92fcbb5d65029bd634bf357a62a2d2b5
+  custom:scripting/monoscript/fileName/ITickable.cs: 4dde91f65e7e5ef3d4d774bd59973493 -> 70ffbb68b5e70f08a33a163d99c74ac0
+  custom:scripting/monoscript/fileName/LifetimeScope.AwakeScheduler.cs: 9943b79a92bdc57eec28cb1cabce612a -> c56218cb92f38f53c1c4594bfa7bb611
+  custom:scripting/monoscript/fileName/IInstanceProvider.cs: 56b40b5c364f1b3b57a8baacba1ce940 -> 6a354dd56278f9b231b5a8be97d6766f
+  custom:scripting/monoscript/fileName/InjectorCache.cs: 8a76823cf0706cdacf68dfcee02464ba -> e9feaa5bd23344046b4ca5593ce9f413
+  custom:scripting/monoscript/fileName/IPostStartable.cs: 0367b753cfda43fa98822555c722d73b -> 9343fe388fcd81d3e2bc793d8644b674
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabComponentProvider.cs: 50c75b5efee3ac4c530d8f7d0082f400 -> 99cd143d571cc52551e607f8c1c21c66
+  custom:scripting/monoscript/fileName/RegistrationBuilder.cs: 5b301a7fa744acb3bc8c4580ee627af6 -> 254e9694316350a4aa3d6ea326992cbd
+  custom:scripting/monoscript/fileName/CompositeDisposable.cs: 3815a00444ea5336d628632fc9fe54d6 -> 98389c0595dfcc347dc8415b389a2c2d
+  custom:scripting/monoscript/fileName/SplitterGUILayout.cs: b8b1de13cdc3d2c8051bbbf4e2681c37 -> f4c16665c2eb566e2505ac721688fdca
+  custom:scripting/monoscript/fileName/ExistingComponentProvider.cs: cbd3aa3c42e8ee2915047bfc8c7106d5 -> ec10902e555455ca67586c6016a600ec
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs: deef5fad5e0edccc7826318d6cb00314 -> 32947baf47b9dc6464e983ea63fd040f
+  custom:scripting/monoscript/fileName/VContainerInstanceTreeView.cs: 10b27ca9f5858a493e7f23c474052cc6 -> 1a79a2cf1ce5721a2aea2f6106dd627b
+  custom:scripting/monoscript/fileName/ContainerBuilder.cs: 0676bba0bc87c0403557b99306267d9c -> f68b0607445bc245e72f9d7ca12b3191
+  custom:scripting/monoscript/fileName/KeyAttribute.cs: 63d29ca8c129c3723949a59dafba975c -> 9e88f9355350cc1285ef19b4fb4eaf00
+  custom:scripting/monoscript/fileName/RegisterInfo.cs: 5c8824ef13b81aa9269faed75cbe110a -> d19351003ea0e5c1d7e864972194f7ec
+  custom:scripting/monoscript/fileName/VContainerSettings.cs: e8750455ffef5ca521aeb44479adf899 -> f0948db24271bf95f4355e46e3023eff
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:VContainer.Editor: 8224c1db7d58b30f65c3e26e00c4ab9c -> e793241b00e86a8079ad59be3f66e106
+  custom:scripting/monoscript/fileName/OpenGenericRegistrationBuilder.cs: 644a3b8f7812fc5c22571a316bb2bbba -> d2fa93041a03cd12234721be57a508ef
+  custom:scripting/monoscript/fileName/IAsyncStartable.cs: 548922e80f91e6bef8cc2dba2c045dfb -> c6d3706a1b0eb154c737923d07027eb3
+  custom:scripting/monoscript/fileName/ListPool.cs: f8ff4dba4ea844af6e7e81a0e8c120f3 -> 4ed36a723416821497e1f3e70174a812
+  custom:scripting/monoscript/fileName/IObjectResolverExtensions.cs: decb9c7dfd14b73729a2ded4fb9ca789 -> 39ee8db34670483ef5e9c46d85b0fe94
+  custom:scripting/monoscript/fileName/IPostFixedTickable.cs: 5250f76b8c99c12062620fc82cf98efa -> 4a51ccde2c27ef212b1ce89b3526e18d
+  custom:scripting/monoscript/fileName/NewGameObjectProvider.cs: 2d24447551fb927536fc701f056e5fda -> 82b21788d9e6cd96454c26038d9abdae
+  custom:scripting/monoscript/fileName/ParentReference.cs: e6115d5428597e063d9b71881b209031 -> 36e999b8e9eefc67ab28fa3a4e05f1cd
+  custom:scripting/monoscript/fileName/FuncRegistrationBuilder.cs: 01772f41771dd7c30ea1599e179db0f8 -> 50c180d00305dbf4cdb015ece39b21af
+  custom:scripting/monoscript/fileName/ContainerBuilderExtensions.cs: 3293653c20a3655eaec55cfa794c0e2a -> df8b89fe295fee80bdf34b7d919a7927
+  custom:scripting/monoscript/fileName/BuilderCallbackDisposable.cs: 341628084927be29d40c874392a530be -> 95fd13d794e4427e982d05d53f3753fa
