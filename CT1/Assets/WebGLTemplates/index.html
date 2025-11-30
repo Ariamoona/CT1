@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>My Awesome Game</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+</head>
+<body>
+    <div class="webgl-content">
+        <div id="unity-container" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+            <div class="title">My Awesome Game</div>
+        </div>
+    </div>
+    
+    <script>
+        var buildUrl = "Build";
+        var loaderUrl = buildUrl + "/{{{ PRODUCT_NAME }}}.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/{{{ PRODUCT_NAME }}}.data{{{ DATA_EXTENSION }}}",
+            frameworkUrl: buildUrl + "/{{{ PRODUCT_NAME }}}.framework.js{{{ EXTENSION }}}",
+            codeUrl: buildUrl + "/{{{ PRODUCT_NAME }}}.wasm{{{ EXTENSION }}}",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "MyCompany",
+            productName: "{{{ PRODUCT_NAME }}}",
+            productVersion: "{{{ PRODUCT_VERSION }}}",
+            showBanner: unityShowBanner,
+        };
+
+        var container = document.querySelector("#unity-container");
+        var canvas = document.createElement("canvas");
+        var loadingBar = document.createElement("div");
+        
+        loadingBar.className = "loading-bar";
+        loadingBar.style.width = "0%";
+        container.appendChild(loadingBar);
+        container.appendChild(canvas);
+        
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+        script.onload = () => {
+            createUnityInstance(canvas, config, (progress) => {
+                loadingBar.style.width = 100 * progress + "%";
+            }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                window.unityInstance = unityInstance;
+            }).catch((message) => {
+                alert(message);
+            });
+        };
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>

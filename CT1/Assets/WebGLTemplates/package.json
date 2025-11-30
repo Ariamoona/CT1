@@ -1,0 +1,7 @@
+{
+  "name": "com.mycompany.mywebtemplate",
+  "version": "1.0.0",
+  "displayName": "My Custom WebGL Template",
+  "description": "Custom WebGL template for my game",
+  "type": "template"
+}
